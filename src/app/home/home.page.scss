@@ -25,3 +25,65 @@
 #container a {
   text-decoration: none;
 }
+
+@media only screen and (max-width: 992px) {
+  ion-content {
+    --ion-background-color: #E5E7E9;
+  }
+
+  ion-card {
+    --ion-background-color: #CACFD2;
+    --ion-transition: --ion-background-color .5s;
+  }
+
+  ion-card:hover {
+    --ion-background-color: #2888c0;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  ion-content {
+    --ion-background-color: #85929E ;
+  }
+
+  ion-card {
+    --ion-background-color: #5D6D7E;
+  }
+
+  .tipo1 {
+    color: #000000;
+  }
+
+  .tipo2 {
+    color: #F7F9F9;
+  }
+
+  .tipo3 {
+    color: #D7DBDD;
+  }
+
+}
+
+@media only screen and (max-width: 200px) {
+  ion-content {
+    --ion-background-color: #FDFEFE;
+  }
+
+  ion-card {
+    --ion-background-color: #5D6D7E;
+  }
+
+  .tipo1 {
+    color: #000000;
+  }
+
+  .tipo2 {
+    color: #F7F9F9;
+  }
+
+  .tipo3 {
+    color: #D7DBDD;
+  }
+  
+}
