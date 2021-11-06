@@ -10,11 +10,14 @@ export class HomePage {
 
 
   usuarios: any;
+  filtro: string = '';
 
   constructor(private httpClient: HttpClient) {
 
     this.usuarios = this.httpClient.get('https://raw.githubusercontent.com/DiegoJSan/Actividad_1.11.2/master/MOCK_DATA%20.json')
 
   }
+
+  
 
 }
